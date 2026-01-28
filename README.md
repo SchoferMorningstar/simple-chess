@@ -54,7 +54,7 @@ npm install
 ```
 Uwaga: front-end został stworzony przy użyciu Create React App.
 
-### Uruchomienie
+## Uruchomienie
 
 1. Uruchom backend:
 ```bash
@@ -70,60 +70,35 @@ npm start
 ```
 Frontend uruchomi się na http://localhost:3000.
 
-Funkcje
-Tworzenie gry
-Wybierz czas gry (minuty)
+## Funkcje
+### Tworzenie gry
+- Wybierz czas gry (minuty)
+- Wybierz stronę: White, Black, lub Random
+- Kliknij Create Game → otrzymasz ID meczu
 
-Wybierz stronę: White, Black, lub Random
+### Dołączanie do gry
+- Wpisz ID meczu w polu Game ID
+- Kliknij Join Game
 
-Kliknij Create Game → otrzymasz ID meczu
+### Rozgrywka
+- Plansza obraca się automatycznie: gracz białymi widzi białe u dołu, czarnymi – czarne u dołu
+- Walidacja ruchów odbywa się po stronie serwera
+- Zegar odlicza czas każdego gracza na żywo
+- Wyświetla się, czyj jest ruch oraz Twój kolor
 
-Dołączanie do gry
-Wpisz ID meczu w polu Game ID
+### Screenshoty
 
-Kliknij Join Game
-
-Rozgrywka
-Plansza obraca się automatycznie: gracz białymi widzi białe u dołu, czarnymi – czarne u dołu
-
-Walidacja ruchów odbywa się po stronie serwera
-
-Zegar odlicza czas każdego gracza na żywo
-
-Wyświetla się, czyj jest ruch oraz Twój kolor
-
-Screenshoty
 Initial state (przed utworzeniem gry)
+<img width="1920" height="1080" alt="initialState" src="https://github.com/user-attachments/assets/a2a9ae82-548e-4e3c-824c-6a1560318a36" />
 
-Tworzenie gry – białe
+Gra – białe
+<img width="1920" height="1080" alt="whiteGame" src="https://github.com/user-attachments/assets/1b259b64-26aa-478e-a147-9c878a031a7a" />
 
-Tworzenie gry – czarne
+Gra – czarne
+<img width="1920" height="1080" alt="blackGame" src="https://github.com/user-attachments/assets/ae6d3fd9-9e9d-46eb-a1a5-f2ab6d43abdc" />
 
 Kod meczu / dołączanie
-
-Struktura projektu
-online_chess/
-├─ client/               # Frontend React
-│  ├─ src/
-│  │  ├─ App.jsx
-│  │  ├─ index.js
-│  │  └─ index.css
-│  ├─ assets/            # screenshoty: initialState.png, whiteGame.png, blackGame.png, gameCode.png
-│  ├─ package.json
-│  └─ tailwind.config.js
-└─ server/               # Backend Node.js
-   ├─ index.js
-   └─ package.json
-Kontrybucja
-Sklonuj repozytorium i utwórz nową gałąź:
-
-git checkout -b feature/my-feature
-Wprowadź zmiany, commituj i wypchnij:
-
-git add .
-git commit -m "Opis zmian"
-git push origin feature/my-feature
-Utwórz Pull Request na GitHub.
+<img width="1920" height="1080" alt="gameCode" src="https://github.com/user-attachments/assets/a0e49cb2-f141-4ab4-95d8-dbd421e57a56" />
 
 Licencja
 MIT License – możesz używać, modyfikować i rozpowszechniać projekt.
