@@ -100,5 +100,5 @@ Gra – czarne
 Kod meczu / dołączanie
 <img width="1920" height="1080" alt="gameCode" src="https://github.com/user-attachments/assets/a0e49cb2-f141-4ab4-95d8-dbd421e57a56" />
 
-Licencja
+## Licencja
 MIT License – możesz używać, modyfikować i rozpowszechniać projekt.
