@@ -1,5 +1,5 @@
 # Online Chess
-### Przygotował: Adam Gwiazdoń
+### Przygotował: Adam Gwiazdoń i Karol Babij
 
 **Online Chess** to gra szachowa online napisana w **React**, z wykorzystaniem **TailwindCSS** do stylowania, **Socket.IO** do komunikacji w czasie rzeczywistym i **chess.js / chessboardjsx** do logiki i wyświetlania planszy.  
 
